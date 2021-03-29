@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.header {
+    width: 100%; 
+    height: 135px;
+}
+.menu {
+    background-color: 	#424242;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li {
+    margin: 50px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: 	#EEEEEE
+}
+.menu ul li a:hover {
+    color: white;
+    transition: all ease 0.5s;
+    transform: scale(1.02);  
+}
+/* menu end */
+.covid {
+    width: 100%;
+    height: 45px;
+    background-color: #0091EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.covid p {
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.covid p a {
+    color: white;
+    text-decoration: none;
+}
+.covid p a:hover {
+    text-decoration: underline;
+}
+.shop-online {
+    width: 100%;
+    height: 45px;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-online a {
+    text-decoration: none;
+    color: #0091EA;
+    font-weight: bold;
+    font-size: 13px;
+}
+.shop-online a:hover {
+    text-decoration: underline;
+}
+.shop-online p {
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+/* header end*/
+.main {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    
+}
+.main .info {
+  height: auto;
+  text-align: center;
+ 
+}
+.info p {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;  
+}
+.info .blast{
+    text-align: center;
+    font-size: 25px;
+}
+.info .from {
+    margin-top: 25px;
+    font-size: 18px;
+    color: grey;
+    font-weight: bold;
+}
+.info .buy {
+    margin-top: 5px;
+    font-size: 18px;
+    color: grey;
+    font-weight: bold;
+    
+}
+.info .button a {
+    font-size: 20px;
+    margin: 23px;
+    text-decoration: none;
+    color: #0091EA;
+}
+.info .button a:hover {
+    text-decoration: underline;
+}
+.iphone-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iphone-img img {
+    width: 80vh;
+    height: 65vh;
+}
+/*main end */
+.main2 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background-color: black;
+}
+.main2 .info {
+    height: auto;
+    text-align: center;
+}
+.info .pro {
+    padding-top: 25px;
+    color: white;
+}
+.info .its{
+    color: white;
+    font-size: 25px;
+}
+/*main2 end*/
+.main3 {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+}
+.main3 .info {
+    height: auto;
+    text-align: center;
+  }
+.info .air {
+    color: black;
+    padding-top: 45px;
+    font-size: 45px; 
+  }
+.info .pow {
+    color: black;
+    font-size: 20px;
+}
+/*main3 end*/
+.main4 {
+    background-color: black;
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+}
+.main4 .info {
+    height: auto;
+    text-align: center;
+  }
+.info .watchh {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 243vh;
+    right: 29%;
+  }
+.info .watch {
+    color: white;
+    padding-top: 45px;
+    font-size: 45px; 
+  }
+.info .series {
+    color: #a52a2a;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    right: 10px;
+}
+.info .the {
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
